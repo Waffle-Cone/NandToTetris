@@ -1,6 +1,7 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
+// File name: projects/1/Mux.hdl
 /** 
  * Multiplexor:
  * if (sel = 0) out = a, else out = b
@@ -11,4 +12,10 @@ CHIP Mux {
 
     PARTS:
     //// Replace this comment with your code.
+    And(a=sel , b=sel , out=selB ); // when sel is 1 we select B
+    Not(in= selB, out= selA ); // if sel was 0 then this would switch it to 1 for the selection of A
+    And(a=a , b=selA , out= outA ); //the reuslts for when A is selected (ignore B output)
+    And(a=selB , b=b , out= outB ); //the reuslts for when B is selected (ignore A output)
+    Xor(a =outA , b =outB , out =out ); // join both outputs together to a single table
+ 
 }
