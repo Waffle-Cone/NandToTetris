@@ -13,21 +13,19 @@ The Nand2Tetris course walks through the process of building a computer system f
 
 ## 📂 Course Outline
 
-### Part I
-1. **Boolean Logic**  
-2. **Boolean Arithmetic**  
-3. **Memory**  
-4. **Machine Language**  
-5. **Computer Architecture**  
-6. **Assembler**
+P1. **Boolean Logic**  
+P2. **Boolean Arithmetic**  
+P3. **Memory**  
+P4. **Machine Language**  
+P5. **Computer Architecture**  
+P6. **Assembler**
 
-### Part II
-7. **VM I: Stack Arithmetic**  
-8. **VM II: Program Control**  
-9. **High-Level Language**  
-10. **Compiler I: Parsing**  
-11. **Compiler II: Code Generation**  
-12. **Operating System**
+P7. **VM I: Stack Arithmetic**  
+P8. **VM II: Program Control**  
+P9. **High-Level Language**  
+P10. **Compiler I: Parsing**  
+P11. **Compiler II: Code Generation**  
+P12. **Operating System**
 
 ---
 
